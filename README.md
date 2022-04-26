@@ -91,8 +91,6 @@ async function assumeRole(roleArn, region) {
     sessionToken: response.Credentials.SessionToken,
   };
 }
-
-ping();
 ```
 
 ## Test
