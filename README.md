@@ -63,7 +63,7 @@ const createAwsElasticsearchConnector = require("./src/index.js");
 
 async function ping() {
   const creds = await assumeRole(
-    "arn:aws:iam::062437324875:role/Administrator",
+    "arn:aws:iam::0123456789012:role/Administrator",
     "us-east-1"
   );
   const client = new Client({
